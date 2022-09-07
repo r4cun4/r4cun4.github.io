@@ -14,6 +14,7 @@ button {
     flex-direction: column;
     max-width: 1100px;
     margin: 0 auto;
+    padding: 20px 0 50px 0;
     box-shadow: -7px -9px 76px -32px rgba(0,0,0,0.75);
 }
 
@@ -112,7 +113,7 @@ figcaption {
 .slider-container-fs--button {
     position: absolute;
     right: 10px;
-    bottom: 5px;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +190,8 @@ figcaption {
 }
 
 .fullscreen:fullscreen figcaption {
+    width: 70%;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -243,6 +246,3 @@ figcaption {
 .fullscreen:fullscreen .slider-container-fs--button > span:after {
     background: #2596be;
 }
-
-
-
